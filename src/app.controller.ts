@@ -12,6 +12,6 @@ export class AppController {
 
   @Get('user')
   async getUsers() {
-    return this.appService.getUser()
+    return this.appService.getUser();
   }
 }
