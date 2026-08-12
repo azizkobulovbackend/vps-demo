@@ -6,7 +6,7 @@ export class AppService {
   constructor(private readonly prisma: PrismaService) {}
 
   getHello(): string {
-    return 'Hello world!';
+    return 'Hello WORLD!';
   }
 
   async getUser() {
