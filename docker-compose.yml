@@ -49,8 +49,6 @@ services:
       GF_SERVER_SERVE_FROM_SUB_PATH: "true"
     volumes:
       - grafana_data:/var/lib/grafana
-    depends_on:
-      - prometheus
 
 volumes:
   postgres_data:
