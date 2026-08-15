@@ -7,7 +7,7 @@ import { LoggerModule } from 'nestjs-pino';
 import { pinoConfig } from './logger.config';
 
 @Module({
-  imports: [PrismaModule, MetricsModule, LoggerModule.forRootAsync(pinoConfig)],
+  imports: [PrismaModule, LoggerModule.forRootAsync(pinoConfig)],
   controllers: [AppController],
   providers: [AppService],
 })
